@@ -32,6 +32,8 @@
         [resizeEdges]="{ bottom: true }"
       ></div>
       <div class="enviroment-container">
+        <app-table-list *ngIf="this.component === 'TableListComponent'"
+        ></app-table-list>
       </div>
     </div>
   </div>
